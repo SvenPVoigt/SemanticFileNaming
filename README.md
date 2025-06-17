@@ -9,10 +9,10 @@ The Academic Tool For Defining Patterns And Standardizing Filenames
 
 The command: `java -Xmx8192M -jar SemanticFileNaming-1.0.jar Arg1 Arg2 Arg3`
 
-Arg 1: File path to a specification.
-Arg 2: File path to a list of file paths.
-Arg 3 [optional]: File path to a model.
-Arg 4 [optional]: Verbosity (integer).
+* Arg 1: File path to a specification.
+* Arg 2: File path to a list of file paths.
+* Arg 3 [optional]: File path to a model.
+* Arg 4 [optional]: Verbosity (integer).
 
 
 

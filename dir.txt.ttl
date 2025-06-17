@@ -1,0 +1,223 @@
+<http://example.org/viewField>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/inWorld>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/Person>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Person" ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/collaborator>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/AFRL>
+        a       <http://example.org/Organization> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "AFRL" ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/describesMaterial>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/inProject>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/Natalia-Millan>
+        a       <http://example.org/Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Natalia Millan" ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/Ti811>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ti811" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://example.org/TitaniumAlloy> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> .
+
+<http://example.org/isImageType>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/Natalia-Millan.Experimental-Data---Natalia.AFRL-Data.Ti6242.Sample-13>
+        a       <http://example.org/TitaniumAlloy> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Natalia Millan.Experimental Data - Natalia.AFRL Data.Ti6242.Sample 13" ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/hasFileType>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/suppliedBy>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/supplies>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/dir.txt/Path2-data>
+        a       <http://example.org/Data> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> ;
+        <tag:dirToRDF@null.net,2023:source>
+                "file:///Natalia Millan/Experimental Data - Natalia/AFRL Data/Ti811/Post HT/Sample 3 and 4/Optical Sample 4/Ti811_Sample4_5x.grid.tif" .
+
+<tag:dirToRDF@null.net,2023:source>
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/Structure>
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/dir.txt/Path1-data>
+        a       <http://example.org/Data> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet1> ;
+        <tag:dirToRDF@null.net,2023:source>
+                "file:///Natalia Millan/Experimental Data - Natalia/AFRL Data/Ti6242/Post HT/Sample 13 BW/2nd Try/Optical/12_5x.tif" .
+
+<http://example.org/Optical>
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://example.org/Structure> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/producedBy>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<tag:dirToRDF@null.net,2023:nodeSet2>
+        a       <tag:dirToRDF@null.net,2023:NodeSet> ;
+        <http://example.org/magnification>
+                "5x" .
+
+<http://www.w3.org/2000/01/rdf-schema#subClassOf>
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/magnification>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "magnification" ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/Experimental>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Experimental" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://example.org/Data> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/Ti6242>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ti6242" ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>
+                <http://example.org/TitaniumAlloy> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/tif>
+        a       <http://example.org/FileType> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "tif" ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/Data>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Data" ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/FileType>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "FileType" ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<tag:dirToRDF@null.net,2023:nodeSet1>
+        a       <tag:dirToRDF@null.net,2023:NodeSet> ;
+        <http://example.org/magnification>
+                "5x" ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> .
+
+<http://example.org/creator>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/produces>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/Natalia-Millan.Experimental-Data---Natalia.AFRL-Data.Ti811.Post-HT.Sample-3-and-4.Optical-Sample-4>
+        a       <http://example.org/TitaniumAlloy> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Natalia Millan.Experimental Data - Natalia.AFRL Data.Ti811.Post HT.Sample 3 and 4.Optical Sample 4" ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> .
+
+<http://example.org/TitaniumAlloy>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "TitaniumAlloy" ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/processParameter>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/involved>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/dateTime>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .
+
+<http://example.org/Organization>
+        a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Organization" ;
+        <tag:dirToRDF@null.net,2023:in>
+                <tag:dirToRDF@null.net,2023:nodeSet2> , <tag:dirToRDF@null.net,2023:nodeSet1> .

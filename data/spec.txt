@@ -1,0 +1,59 @@
+PREFIX http://example.org/
+
+BEGIN Spec;
+Person?I+R{Natalia Millan}/Data?C+R{Experimental}" Data - Natalia"/Organization?I+G+R{AFRL}" Data"/TitaniumAlloy?C+R{(?<x>Ti6242|Ti5\_2\.5|Ti64|Ti6246|Ti811)(?=.*Sample \d{1,2}(?!\d? and).*(Optical|OM|SEM|EBSD))}/TitaniumAlloy?I+R{.*?(?<x>Sample ?\d{1,2})(?! and|-)[^\/]*}*?N+R{.*?(Optical|OM)}*magnification?P+R{.*?(?<x>\d+x).*(?=\.tif)}.FileType?I+G@CDatOpt@RDef@RMat
+
+Person?I+R{Natalia Millan}/Data?C+R{Experimental}" Data - Natalia"/Organization?I+G+R{AFRL}" Data"/TitaniumAlloy?C+R{(?<x>Ti6242|Ti5\_2\.5|Ti64|Ti6246|Ti811)(?!.*Sample \d{1,2}(?!\d? and).*(Optical|OM|SEM|EBSD))}/?N+R{.*?(Optical|OM)}*TitaniumAlloy?I+R{.*?(?<x>Sample ?\d{1,2})(?! and|-)}*magnification?P+R{.*?(?<x>\d+x).*(?=\.tif)}.FileType?I+G@CDatOpt@RDef@RMat
+
+END Spec;
+
+
+
+BEGIN Implied = CDatOpt;
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix :      <http://example.org/> .
+
+:Optical rdfs:subClassOf :Structure .
+END Implied = CDatOpt;
+
+
+BEGIN Implied = RDef;
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix :      <http://example.org/> .
+
+# File descriptions
+:hasFileType rdf:type rdf:Property .
+:isImageType rdf:type rdf:Property .
+
+# Organizational things
+:creator rdf:type rdf:Property .
+:involved rdf:type rdf:Property .
+:collaborator rdf:type rdf:Property .
+:inProject rdf:type rdf:Property .
+:dateTime rdf:type rdf:Property .
+
+# Literals only ever match if literal in path so can always include these relationships.... Maybe update the rule then?? This works so good for now
+:viewField rdf:type rdf:Property .
+:processParameter rdf:type rdf:Property .
+:magnification rdf:type rdf:Property .
+END Implied = RDef;
+
+
+
+
+BEGIN Implied = RMat;
+
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix :      <http://example.org/> .
+
+:describesMaterial rdf:type rdf:Property .
+:inWorld rdf:type rdf:Property .
+:producedBy rdf:type rdf:Property .
+:produces rdf:type rdf:Property .
+:supplies rdf:type rdf:Property .
+:suppliedBy rdf:type rdf:Property .
+
+END Implied = RMat;

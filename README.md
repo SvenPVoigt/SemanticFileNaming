@@ -16,6 +16,10 @@ Arg 4 [optional]: Verbosity (integer).
 
 
 
+If you are unable to compile, the jar file is also available under this repository's releases.
+
+
+
 
 # Example
 
